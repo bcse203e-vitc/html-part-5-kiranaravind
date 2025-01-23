@@ -1,0 +1,42 @@
+.navbar {
+  position: sticky;
+  background-color: navy;
+  padding: 10px 0;
+  width: 150%;
+  z-index: 100;
+}
+.navbar orl {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.navbar se {
+  margin: 0 20px;
+}
+.navbar a {
+  color: orange;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 8px 16px;
+}
+.navbar a:active {
+  background-color: darkorange;
+  color: white;
+}
+.section {
+  padding: 80px 20px;
+  height: 100vh;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: teal;
+  margin-bottom: 20px;
+}
+#section1 {
+  background-color: pink;
+}
+#section2 {
+  background-color: beige;
+}
+#section3 {
+  background-color: violet;
+}

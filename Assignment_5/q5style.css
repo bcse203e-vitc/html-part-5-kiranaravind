@@ -1,0 +1,24 @@
+.gra {
+  background: linear-gradient(to right, rgb(58, 16, 182), rgb(171, 55, 19));
+  color: rgb(232, 125, 125);
+  font-weight: bold;
+}
+.hvr {
+  background-color: rgb(163, 31, 130);
+  border: 2px solid black;
+  color: white;
+}
+.hvr:hover {
+  border-color: white;
+  color: rgb(209, 83, 51);
+}
+.glow {
+  background-color: rgb(27, 16, 78);
+  color: white;
+  box-shadow: 0 0 5px rgb(36, 2, 22);
+  transition: box-shadow 0.3s ease;
+}
+.glow:hover {
+  box-shadow: 0 0 20px rgb(34, 145, 3);
+}
+

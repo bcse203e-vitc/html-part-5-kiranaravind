@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.loginform {
+  background: lightyellow;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px darkblue;
+  width: 500px;
+}
+.loginform h1 {
+  margin-bottom: 10px;
+  color: darkblue;
+}
+.loginform label {
+  display: flex;
+  margin-bottom: 10px;
+  color: purple;
+}
+.loginform input[type="email"],
+.loginform input[type="password"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid purple;
+  border-radius: 5px;
+}
+
+.loginform input[type="email"]:valid,
+.loginform input[type="password"]:valid {
+  border-color: darkgreen;
+}
+
+.loginform input[type="email"]:invalid,
+.loginform input[type="password"]:invalid {
+  border-color: crimson;
+}
+.loginform input[type="checkbox"] {
+  margin-right: 5px;
+}
+.loginform button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: darkorange;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.loginform button:hover {
+  background-color: orangered;
+}

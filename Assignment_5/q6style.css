@@ -1,0 +1,53 @@
+
+.anihv {
+  font-size: 100px;
+  color: blue;
+  animation: colorChange 5s infinite alternate, sizeChange 5s infinite alternate,
+    positionChange 5s infinite alternate;
+  transition: transform 0.5s ease, color 0.5s ease;
+}
+@keyframes colorChange {
+  0% {
+    color: lightblue;
+  }
+  50% {
+    color: yellow;
+  }
+  100% {
+    color: purple;
+  }
+}
+@keyframes sizeChange {
+  0% {
+    font-size: 60px;
+  }
+  50% {
+    font-size: 70px;
+  }
+  100% {
+    font-size: 80px;
+  }
+}
+@keyframes positionChange {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+.anihv:hover {
+  transform: scale(1.1);
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  text-align: center;
+}
